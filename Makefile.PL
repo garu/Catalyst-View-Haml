@@ -5,6 +5,8 @@ all_from 'lib/Catalyst/View/Haml.pm';
 author   'Breno G. de Oliveira <garu@cpan.org>';
 license  'perl';
 
+githubmeta;
+
 build_requires 'Test::More';
 
 requires 'Text::Haml';
