@@ -8,7 +8,7 @@ requires 'Path::Class::File'     => '0.17';
 requires 'Try::Tiny'             => '0.04';
 
 on 'test' => sub {
-    requires 'Test::More' => 0.88,
+    requires 'Test::More' => 0.88;
 };
 
 on 'develop' => sub {
