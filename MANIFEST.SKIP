@@ -1,0 +1,24 @@
+# avoid version control files
+\.git
+ignore.txt
+
+# avoid cpanfile
+^cpanfile$
+
+# avoid Makemaker generated and utility files
+^MANIFEST\.
+^MYMETA
+\bMakefile$
+\bMakefile\.old
+\bblib
+\bpm_to_blib$
+
+# avoid temp and backup files
+~$
+\.tmp$
+\.bak$
+\.swp$
+
+# avoid archives
+^Catalyst-View-Haml
+\.tar\.gz
