@@ -8,7 +8,7 @@ use Try::Tiny;
 use namespace::autoclean;
 
 extends 'Catalyst::View';
-our $VERSION = '0.01';
+our $VERSION = '1.00';
 
 has 'haml' => ( is => 'rw', isa => 'Text::Haml' );
 
